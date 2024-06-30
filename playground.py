@@ -1,6 +1,7 @@
+import builtins
+
 def main():
-    x = [1,3,4,5]
-    for i,n in enumerate(x):
+    for i,n in enumerate([54,3,1,5]):
         print(i,n)
 
 main()
