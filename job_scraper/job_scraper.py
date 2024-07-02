@@ -16,7 +16,6 @@ def scrape_jobs(url):
     if not section:
         print(f"Could not find section with title: {section_title}")
         return []
-    print(section)
     
     # Find all job listings (you'll need to adjust this based on the specific website's HTML structure)
     job_listings = section.find_next_siblings('div', class_='opening')
@@ -59,12 +58,12 @@ def compare_job_arrays(array1, array2):
     print("Differences found:")
     
     if only_in_array1:
-        print("\nJobs only in first array:")
+        print("\nNEW JOBS:")
         for job in only_in_array1:
             print(dict(job))
     
     if only_in_array2:
-        print("\nJobs only in second array:")
+        print("\nJOBS REMOVED:")
         for job in only_in_array2:
             print(dict(job))
     
