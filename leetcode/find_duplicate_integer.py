@@ -18,7 +18,7 @@ away from the point where a fast and slow pointer first intersect.  Therefore, i
 a fast and slow pointer intersect.  Then, we can put a pointer at the start and then at the intersection we found, iterate those 
 pointers through the list starting at those respective points.  Because the intersection and the start of the list will be the same
 number of points away from the start of the cycle (aka the duplicated value), we know that the fast and slow pointers will eventually
-meet at that point which will get us our answer 
+meet at that point which will get us our answer.
 '''
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
