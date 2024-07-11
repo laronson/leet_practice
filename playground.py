@@ -1,6 +1,8 @@
-import builtins
+
 
 def main():
-    for i in range(10):
-        print(i)
+    a = [1,2,4]
+    print(a[1:3])
+
+
 main()

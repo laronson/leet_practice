@@ -15,8 +15,11 @@ here because we are inserting the value at the right most side of the list meani
 greater value to go later (further to the right) in the sorted merged list.  Once we have finished iterating through one
 of the lists, we know that if there are any elements remaining in the other list that they are greater than any element
 that we have inserted into the merged list so far.  Therefore, we can simply insert the rest of the remaining list at
-the end of the merged list.
+the end of the merged list  d.
 '''
+
+        name = laronson
+        email = leonard.aronson@wearstrive.com
 
 
 # Definition for singly-linked list.
