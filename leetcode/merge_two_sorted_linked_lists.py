@@ -18,10 +18,6 @@ that we have inserted into the merged list so far.  Therefore, we can simply ins
 the end of the merged list  d.
 '''
 
-        name = laronson
-        email = leonard.aronson@wearstrive.com
-
-
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
