@@ -1,8 +1,14 @@
 
 
 def main():
-    a = [1,2,4]
-    print(a[1:3])
+    def retT():
+        print("retT")
+        return True
+    def retF():
+        print("retF")
+        return False
+    
+    return retF() and retT()
 
 
 main()
