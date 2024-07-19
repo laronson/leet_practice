@@ -1,14 +1,8 @@
 
 
 def main():
-    def retT():
-        print("retT")
-        return True
-    def retF():
-        print("retF")
-        return False
-    
-    return retF() and retT()
+    a = [1,2,3]
+    print(a[1:])
 
 
 main()
