@@ -1,8 +1,9 @@
 
 
 def main():
-    a = [1,2,3]
-    print(a[1:])
+    s1 = 'abc'
+    s2 = 'bac'
+    print(f'{s1}')
 
 
 main()
