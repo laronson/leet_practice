@@ -2,7 +2,7 @@
 This problem presents us with a node count, n, a list of edges in a graph, edges, and a source node, src.  The problem 
 asks us to find the minimum cost it takes for us to get from a single node to all other nodes in a directed graph.
 
-To do this efficiently, we can use Dijkstra’s Algorithm which is a method to get the shortest path from one node to 
+To do this efficiently, we can use Dijkstras Algorithm which is a method to get the shortest path from one node to 
 another in a directed graph.  This method is very similar to a BFS search of a tree (which is typically used to get the 
 shortest path in a unweighted graph), however there are some slight differences.  To use Dijkstra’s Algorithm, we use a 
 minHeap instead of a queue to track the graphs “nearest neighbors”.  Further, when we add a new node to the minHeap, we 
