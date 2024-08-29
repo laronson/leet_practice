@@ -1,9 +1,9 @@
+left = True
+right = True
 
-
-def main():
-    s1 = 'abc'
-    s2 = 'bac'
-    print(f'{s1}')
-
-
-main()
+if not left and right:
+    print("here")
+elif not right and left:
+    print("here2")
+else:
+    print("here3")
